@@ -55,8 +55,8 @@ RUN a2enmod rewrite
 
 EXPOSE ${APACHE_PORT}
 
-VOLUME /var/www/filegator/repository
-VOLUME /var/www/filegator/private
+#VOLUME /var/www/filegator/repository
+#VOLUME /var/www/filegator/private
 
 USER www-data
 
